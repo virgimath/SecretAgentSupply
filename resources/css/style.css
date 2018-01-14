@@ -42,10 +42,73 @@ header h3 {
   background-size: cover;
 }
 
+.black-box {
+  display: block;
+  width: 20rem;
+  background-color: black;
+  color: white;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.black-box h3 {
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.black-box h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .navigation {
   display: block;
   width: 100%;
   background-color: firebrick;
+}
+
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0 0.75rem 0;
+  align-items: center;
+  color: white;
+}
+
+.product-grid {
+  display: block;
+  width: 100%;
+}
+
+.product-grid .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0 3rem 0;
+}
+
+.contact {
+  display: block;
+  width: 100%;
+}
+
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.location, .hours {
+  display: block;
+  width: 35%;
+}
+
+.contact h3 {
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 footer {
@@ -54,4 +117,10 @@ footer {
   width: 100%;
   background-color: black;
   color: white;
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
